@@ -4,6 +4,7 @@ package edu.shekhovtsov.homework2;
     Метод будет выводить на экран меньшее по модулю из трёх переданных в метод вещественных чисел.
     Для вычисления модуля используйте тернарную операцию.
 */
+
 public class Task3 {
     public static double lessAbsNumber(double num1, double num2, double num3) {
         double absNum1 = (num1 >= 0 ? num1 : -num1);
