@@ -1,4 +1,4 @@
-package edu.shekhovtsov.homework2;
+package ua.shekhovtsov.homework2;
 
 /*Создать метод и вызвать его в main():
     Метод будет выводить на экран меньшее по модулю из трёх переданных в метод вещественных чисел.
@@ -6,6 +6,9 @@ package edu.shekhovtsov.homework2;
 */
 
 public class Task3 {
+    public static void main(String[] args) {
+        System.out.println(Task3.lessAbsNumber(-1.2, 1.3, -1.1));
+    }
     public static double lessAbsNumber(double num1, double num2, double num3) {
         double absNum1 = (num1 >= 0 ? num1 : -num1);
         double absNum2 = (num2 >= 0 ? num2 : -num2);
