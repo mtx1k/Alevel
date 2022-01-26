@@ -6,9 +6,9 @@ package ua.shekhovtsov.homework2;
 
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println(Task2.oddOrNot(11));
+        System.out.println(Task2.oddOrNot(10) ? "Число четное" : "Число не четное");
     }
-    public static String oddOrNot(int num) {
-        return ((num & 1) == 0 ? "Число четное" : "Число не четное");
+    public static boolean oddOrNot(int num) {
+        return (num & 1) == 0;
     }
 }
