@@ -32,6 +32,6 @@ public class Task2 {
         return text.replaceAll("\s", "");
     }
     private static boolean isPalindrome(String text) {
-        return (new StringBuffer(text).reverse().toString().toLowerCase().equals(text.toLowerCase()) ? true : false);
+        return new StringBuffer(text).reverse().toString().toLowerCase().equals(text.toLowerCase());
     }
 }
