@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework1;
+package ua.shekhovtsov.hw1;
 
 /*
 Создать консольное приложение которое:

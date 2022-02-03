@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework4;
+package ua.shekhovtsov.hw4;
 
 import java.util.Arrays;
 import java.util.Random;

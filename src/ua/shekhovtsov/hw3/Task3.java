@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework3;
+package ua.shekhovtsov.hw3;
 
  /*Количество слов в строке
  Вводится строка, состоящая из слов, разделенных пробелами. Требуется посчитать количество слов в ней.
@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Task2 {
+public class Task3 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String text = reader.readLine();

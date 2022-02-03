@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework3;
+package ua.shekhovtsov.hw3;
 
 /*
  Удалить из строки пробелы и определить, является ли она перевертышем
@@ -19,7 +19,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Task1 {
+public class Task2 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String text = reader.readLine();

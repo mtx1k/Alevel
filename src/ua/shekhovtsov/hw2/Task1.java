@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework2;
+package ua.shekhovtsov.hw2;
 
 /*  Создать метод и вызвать его в main():
     Заданы плоские декартовы координаты треугольника.

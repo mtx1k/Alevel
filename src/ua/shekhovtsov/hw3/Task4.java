@@ -1,4 +1,4 @@
-package ua.shekhovtsov.homework3;
+package ua.shekhovtsov.hw3;
 
 /*
 Программа "Угадай число"
@@ -25,7 +25,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class Task3 {
+public class Task4 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int secret = new Random().nextInt(100 + 1);
