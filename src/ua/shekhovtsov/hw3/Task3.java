@@ -15,7 +15,7 @@ public class Task3 {
         System.out.println(counterWords(text));
     }
     private static int counterWords(String text) {
-        String[] strings = text.split("\s+");
+        String[] strings = text.split("\\w+");
         return strings.length;
     }
 }
