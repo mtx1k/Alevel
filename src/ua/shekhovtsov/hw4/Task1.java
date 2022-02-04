@@ -10,7 +10,7 @@ import java.util.Random;
 */
 public class Task1 {
     public static void main(String[] args) {
-        int[] intArray = new int[400];
+        int[] intArray = new int[10];
         fillArrayRandomNumbers(intArray);
         System.out.println(Arrays.toString(intArray));
         System.out.println(getAverage(intArray));
@@ -24,7 +24,7 @@ public class Task1 {
         }
     }
 
-    public static int getAverage(int[] array) {
+    public static double getAverage(int[] array) {
         if (array.length == 0) {
             return 0;
         }
@@ -32,17 +32,17 @@ public class Task1 {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        return sum / array.length;
+        return (double) sum / array.length;
     }
 
     public static double getGeometricAverage(int[] array) {
         if (array.length == 0) {
             return 0;
         }
-        double sum = 0;
+        double result = 1;
         for (int i = 0; i < array.length; i++) {
-            sum += array[i];
+            result *= array[i];
         }
-        return sum / array.length;
+        return Math.pow(result, 1.0 / array.length);
     }
 }
