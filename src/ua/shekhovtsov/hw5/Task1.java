@@ -29,20 +29,26 @@ public class Task1 {
         columns = Integer.parseInt(bufferedReader.readLine());
         int[][] array = new int[rows][columns];
         fill2dArray(array);
-        if(array.length == 0) {
+        if (array.length == 0) {
             System.out.println("length = 0");
             return;
         }
-        System.out.println(Arrays.deepToString(array));
         print2dArray(array);
     }
+
     private static void fill2dArray(int[][] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                array[i][j] = j+i;
+                int temp = j + i * array[i].length + 1;
+                if (i % 2 != 0) {
+                    array[i][j] = -temp;
+                } else {
+                    array[i][j] = temp;
+                }
             }
         }
     }
+
     private static void print2dArray(int[][] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.println(Arrays.toString(array[i]));
