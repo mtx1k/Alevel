@@ -10,7 +10,7 @@ import java.util.Random;
 public class Task3 {
     public static void main(String[] args) {
         int[] intArray = new int[1000];
-        fillArrayRandomNumbers(intArray);
+        //fillArrayRandomNumbers(intArray);
         System.out.println(Arrays.toString(intArray));
         System.out.println(countCompositeNumbers(intArray));
     }
@@ -28,10 +28,6 @@ public class Task3 {
         }
         int counter = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == 2) {
-                counter++;
-                continue;
-            }
             for (int j = 2; j < array[i]; j++) {
                 if (array[i] % j == 0) {
                     counter++;
