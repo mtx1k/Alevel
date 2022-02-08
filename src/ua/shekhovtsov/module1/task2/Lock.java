@@ -9,7 +9,7 @@ public class Lock {
         IMMUTABLE_ARRAY = immutable_array;
     }
 
-    public int[] getUNMUTABLE_ARRAY() {
+    public int[] getIMMUTABLE_ARRAY() {
         return Arrays.copyOf(IMMUTABLE_ARRAY, IMMUTABLE_ARRAY.length);
     }
 
