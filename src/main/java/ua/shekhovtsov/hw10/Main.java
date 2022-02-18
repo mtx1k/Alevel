@@ -9,6 +9,7 @@ public class Main {
         car.addPassanger();
         car.moveCar();
 
+
         Truck truck = new Truck("Truck", 2004, "Red", 20);
         truck.unloadCargo("1");
         truck.loadCargo("1");

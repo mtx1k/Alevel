@@ -8,6 +8,7 @@ public class PassengerCar extends Car{
         this.passengers = new Passenger[3];
     }
 
+
     public void addPassanger() {
         for (int i = 0; i < passengers.length; i++) {
             if(passengers[i] == null) {
