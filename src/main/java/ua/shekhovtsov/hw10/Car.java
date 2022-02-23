@@ -8,6 +8,7 @@ public class Car implements Recovery{
     private String color;
     private int fuel;
 
+
     public String getSeries() {
         return series;
     }

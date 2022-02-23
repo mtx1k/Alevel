@@ -51,6 +51,7 @@ public class Truck extends Car {
         cargos = tempCargoBox;
     }
 
+
     @Override
     public void getStats() {
         System.out.println("Cargos: " + Arrays.toString(cargos));
